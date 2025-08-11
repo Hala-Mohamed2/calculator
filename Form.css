@@ -1,0 +1,15 @@
+.form {
+  margin-top: 1.5rem;
+}
+
+.form input {
+  width: 100%;
+  border: none;
+  height: 120px;
+  background-color: var(--Very-dark-violet);
+  border-radius: 10px;
+  outline: none;
+  font-size: 30px;
+  color: var(--Light-yellow);
+  padding: 0 20px ;
+}

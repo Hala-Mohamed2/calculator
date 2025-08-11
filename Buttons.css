@@ -1,0 +1,66 @@
+.buttons{
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: var(--Very-dark-violet);
+}
+
+.buttons .btns, .btnss{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.btnss{
+  margin-right: 30px;
+}
+
+.buttons .btns:first-child{
+  padding-top: 20px ;
+}
+
+.buttons .btnss:last-child{
+  padding-bottom: 20px;
+}
+
+
+.buttons button {
+  width: 70px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--Very-dark-violett);
+  border: none;
+  cursor: pointer;
+  color: var(--Light-yellow);
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 3px solid var(--Dark-magenta);
+}
+
+.buttons button .del {
+  background-color: var(--Dark-magenta) !important;
+}
+
+.btnss button{
+  width: 100%;
+}
+
+.reset {
+  background-color: var(--Dark-violet) !important;
+  color: var(--white) !important;
+}
+
+.esawy{
+  background-color: var(--Soft-cyan) !important;
+  color: #111 !important;
+  border-bottom: 3px solid var(--Pure-cyan) !important;
+}
+
+.light .esawy {
+  border-bottom: 3px solid rgb(59, 39, 1);
+}
+
+.light .reset {
+  color: #fff;
+}
+

@@ -1,0 +1,41 @@
+.head .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--Light-yellow);
+}
+
+.top h3{
+  font-size: 25px;
+}
+
+.top .top-dn{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.top .top-dn .equal{
+  position: relative;
+  background-color: var(--Very-dark-violet);
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.top .top-dn .equal::after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  top: 3px;
+  left: 35px;
+  background-color: var(--Pure-cyan);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.equal.light::after{
+  left: 3px;
+}
